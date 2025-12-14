@@ -1,0 +1,36 @@
+{
+	"name": "bun-express-service-template",
+	"description": "Generic Express HTTP service template for Bun",
+	"version": "0.1.0",
+	"type": "module",
+	"main": "./dist/index.js",
+	"exports": {
+		".": "./dist/index.js"
+	},
+	"scripts": {
+		"prebuild": "rimraf dist",
+		"build": "tsc -p tsconfig.json",
+		"start": "bun run dist/index.js",
+		"test": "bun test",
+		"lint": "biome check .",
+		"format": "biome format --write ."
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.2.7",
+		"@types/bun": "latest",
+		"@types/cors": "^2.8.19",
+		"@types/express": "^5.0.6",
+		"@types/node": "^24.10.1",
+		"conventional-changelog-conventionalcommits": "^8.0.0",
+		"lerna": "^9.0.3",
+		"rimraf": "^6.1.2",
+		"typescript": "5.9.3"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^17.2.3",
+		"express": "^5.1.0",
+		"helmet": "^8.1.0",
+		"zod": "^3.25.76"
+	}
+}

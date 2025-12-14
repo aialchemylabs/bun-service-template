@@ -1,0 +1,30 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"lib": ["ESNext"],
+
+		"module": "ESNext",
+		"moduleResolution": "bundler",
+		"verbatimModuleSyntax": true,
+
+		"strict": true,
+		"skipLibCheck": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUncheckedIndexedAccess": true,
+		"noImplicitOverride": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+
+		"outDir": "./dist",
+		"declaration": true,
+		"declarationMap": true,
+		"sourceMap": true,
+		"emitDeclarationOnly": false,
+		"noEmitOnError": true
+	},
+	"include": ["index.ts", "src/**/*.ts"],
+	"exclude": ["dist", "node_modules", "logs", "test"]
+}

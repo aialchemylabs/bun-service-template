@@ -1,0 +1,70 @@
+# Dependencies
+node_modules/
+
+# Compiled output
+dist/
+tmp/
+out-tsc/
+.next/
+
+# Nx cache and workspace data
+.nx/
+.cursor/
+
+# Build artifacts
+*.tsbuildinfo
+*.js.map
+*.d.ts.map
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Test outputs
+test-output/
+test-results/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache directories
+.sass-cache/
+.parcel-cache/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Package manager files
+pnpm-debug.log*
+yarn-error.log*
+
+# Supabase data (if applicable)
+supabase-project/volumes/db/data/
+
+# GitHub specific
+.github/instructions/ 
+
+frontends/web-ui/next-env.d.ts
+
+next-env.d.ts
